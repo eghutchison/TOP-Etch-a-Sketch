@@ -1,0 +1,15 @@
+div {
+    background-color: black;
+    width: 6.25%;
+    height: 6.25%;
+    border: 1px solid white;
+    box-sizing: border-box;
+}
+
+#container {
+    width: 640px;
+    height: 640px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
