@@ -19,6 +19,8 @@ function createGrid (side) {
         square.style.width = (100/side)+"%"
         square.style.height = (100/side)+"%"
         container.append(square);
-        square.addEventListener("mouseover", () => /*{if (mouseState === true)*/ {square.style.backgroundColor = 'white'}/*}*/);
+        square.addEventListener("mouseover", () => /*{if (mouseState === true)*/ {let r = Math.round(Math.random() * 255);
+        let g = Math.round(Math.random() * 255);
+        let b = Math.round(Math.random() * 255);square.style.backgroundColor = `rgb(${r},${g},${b})`;}/*}*/);
 }
 }
